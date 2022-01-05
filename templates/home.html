@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {#  This is Comment Syntax in Jinja2  #}
-    {#  Do NOT change that "href" Syntax used in link tag  #}
-    <link rel="stylesheet" href="{{ url_for('static',filename='Styles/style.css') }}" />
-    <title>Sentiment Analysis</title>
+      <!-- Required meta tags -->
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+      <title>Sentiment Analysis</title>
+<!--  Linking CSS with HTML here using below href Syntax-->
+      <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+<!--  Linking JavaScript with HTML here using below src Syntax-->
+      <script type="text/javascript" src="{{  url_for('static', filename='script.js')  }}"> </script>
   </head>
+
   <body>
     <section class="container">
-      <form id="form" action="/submit" method="GET">
-        <input id="email" type="url" placeholder="Enter URL" />
-        <button type="submit">Generate</button>
+      <form id="form" action="/catch_URL" method="get" onsubmit="show_Vid_Name();">
+          <input id="URL" autofocus name="userURL" placeholder="Enter YouTube URL here" type="url" />
+          <button type="submit"> Generate </button>
       </form>
     </section>
   </body>
