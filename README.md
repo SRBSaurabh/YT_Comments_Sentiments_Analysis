@@ -5,7 +5,7 @@ Knowing Overall Public Sentiments on a particular YT video which is having Hundr
 And Getting Some Insights like: 🧠
 1. ✅Why this Video is Treding.📈📉
 2. ✅What people Thinks about your video.🤔💭
-3. ✅What are all Positive👍s & Negative👎 Points..... 🗣️Public talking about a perticular Video.
+3. ✅What are all Positive👍s & Negative👎 Points...... 🗣️Public talking about a perticular Video.
 
 We believe that, This will immensely Help Viewers to Save time⌛ & Know about the Video is short Time &, <br>
 for Content Creators to Save Time in Reading Thousands of Comments & Understanding their Viwers quickly.😇😇⌚⏳
